@@ -1,0 +1,6 @@
+name: changespecialexam
+version: 0.1.0
+patches:
+  openedx-common-settings: |
+    # disable courseware search
+    FEATURES["ENABLE_COMBINED_LOGIN_REGISTRATION"] =True
