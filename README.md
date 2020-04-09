@@ -7,6 +7,9 @@ tutor plugins install https://raw.githubusercontent.com/umairahmadh/Edx-tutor-pl
 Eg, 
 tutor plugins install https://raw.githubusercontent.com/umairahmadh/Edx-tutor-plugins/master/combinedloginregostration.yml
 
+Enable it
+
+tutor plugins enable PLUGIN_NAME
 Run
 tutor config save
 
