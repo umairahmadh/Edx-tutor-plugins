@@ -1,4 +1,4 @@
-name: changespecialexam
+name: customregistration
 version: 0.1.0
 patches:
   openedx-lms-common-settings: |
