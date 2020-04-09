@@ -1,0 +1,7 @@
+name: changespecialexam
+version: 0.1.0
+patches:
+  openedx-lms-common-settings: |
+    # disable courseware search
+    ADDL_INSTALLED_APPS = ["reg_form_ext"]
+    REGISTRATION_EXTENSION_FORM = "reg_form_ext.forms.PhoneInfoForm"
