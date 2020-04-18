@@ -1,0 +1,5 @@
+name: turnoffemailverification
+version: 0.1.0
+patches:
+  openedx-common-settings: |
+    FEATURES["SKIP_EMAIL_VALIDATION"] =True
